@@ -1,5 +1,5 @@
 function checkState()
-	if isCursorShowing(localPlayer) then
+	if isCursorShowing() then
 		camera.speed = 0
 	else
 		camera.speed = 7.5
